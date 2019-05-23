@@ -1,3 +1,15 @@
+# stuff
+data/
+manual/
+out/
+papers_data/
+tmp/
+stuff/
+LabManual.pdf
+Paper4.pdf
+ssh.txt
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
