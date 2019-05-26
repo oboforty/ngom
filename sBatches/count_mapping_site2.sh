@@ -11,7 +11,6 @@
 module load bioinfo-tools
 module load htseq
 
-
 htseq-count -f bam -r pos -t CDS -i ID --stranded=no /home/oboforty/out/mapping139/align3.sorted.bam <(sed '/##FASTA/Q' /home/oboforty/data/prokka_annotations/prokka3/PROKKA_04262019.gff) > /home/oboforty/out/count139/count3.out
 htseq-count -f bam -r pos -t CDS -i ID --stranded=no /home/oboforty/out/mapping139/align23.sorted.bam <(sed '/##FASTA/Q' /home/oboforty/data/prokka_annotations/prokka23/PROKKA_04262019.gff) > /home/oboforty/out/count139/count23.out
 htseq-count -f bam -r pos -t CDS -i ID --stranded=no /home/oboforty/out/mapping139/align4.sorted.bam <(sed '/##FASTA/Q' /home/oboforty/data/prokka_annotations/prokka4/PROKKA_04262019.gff) > /home/oboforty/out/count139/count4.out
@@ -27,6 +26,7 @@ htseq-count -f bam -r pos -t CDS -i ID --stranded=no /home/oboforty/out/mapping1
 htseq-count -f bam -r pos -t CDS -i ID --stranded=no /home/oboforty/out/mapping139/align5.sorted.bam <(sed '/##FASTA/Q' /home/oboforty/data/prokka_annotations/prokka5/PROKKA_04262019.gff) > /home/oboforty/out/count139/count5.out
 htseq-count -f bam -r pos -t CDS -i ID --stranded=no /home/oboforty/out/mapping139/align11.sorted.bam <(sed '/##FASTA/Q' /home/oboforty/data/prokka_annotations/prokka11/PROKKA_04262019.gff) > /home/oboforty/out/count139/count11.out
 htseq-count -f bam -r pos -t CDS -i ID --stranded=no /home/oboforty/out/mapping139/align26.sorted.bam <(sed '/##FASTA/Q' /home/oboforty/data/prokka_annotations/prokka26/PROKKA_04262019.gff) > /home/oboforty/out/count139/count26.out
+
 htseq-count -f bam -r pos -t CDS -i ID --stranded=no /home/oboforty/out/mapping139/align21.sorted.bam <(sed '/##FASTA/Q' /home/oboforty/data/prokka_annotations/prokka21/PROKKA_04262019.gff) > /home/oboforty/out/count139/count21.out
 htseq-count -f bam -r pos -t CDS -i ID --stranded=no /home/oboforty/out/mapping139/align15.sorted.bam <(sed '/##FASTA/Q' /home/oboforty/data/prokka_annotations/prokka15/PROKKA_04262019.gff) > /home/oboforty/out/count139/count15.out
 htseq-count -f bam -r pos -t CDS -i ID --stranded=no /home/oboforty/out/mapping139/align25.sorted.bam <(sed '/##FASTA/Q' /home/oboforty/data/prokka_annotations/prokka25/PROKKA_04262019.gff) > /home/oboforty/out/count139/count25.out

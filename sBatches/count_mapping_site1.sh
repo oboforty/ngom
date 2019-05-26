@@ -11,7 +11,6 @@
 module load bioinfo-tools
 module load htseq
 
-
 htseq-count -f bam -r pos -t CDS -i ID --stranded=no /home/oboforty/out/mapping137/align3.sorted.bam <(sed '/##FASTA/Q' /home/oboforty/data/prokka_annotations/prokka3/PROKKA_04262019.gff) > /home/oboforty/out/count137/count3.out
 htseq-count -f bam -r pos -t CDS -i ID --stranded=no /home/oboforty/out/mapping137/align23.sorted.bam <(sed '/##FASTA/Q' /home/oboforty/data/prokka_annotations/prokka23/PROKKA_04262019.gff) > /home/oboforty/out/count137/count23.out
 htseq-count -f bam -r pos -t CDS -i ID --stranded=no /home/oboforty/out/mapping137/align4.sorted.bam <(sed '/##FASTA/Q' /home/oboforty/data/prokka_annotations/prokka4/PROKKA_04262019.gff) > /home/oboforty/out/count137/count4.out
